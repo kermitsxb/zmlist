@@ -1,0 +1,10 @@
+{
+  "require": {
+    "php": ">=5.4.0",
+    "monolog/monolog": "~1.10"
+  },
+  "autoload": {
+    "files": [ "lib/SteamCondenser.php" ],
+    "psr-4": { "SteamCondenser\\": "lib/SteamCondenser" }
+  }
+}
